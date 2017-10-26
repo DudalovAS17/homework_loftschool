@@ -30,16 +30,15 @@ $func_1=task5_1("ОЛО   лО");
 var_dump($func_1);
 
 echo "Задание 6:" . '<br/>';
-//Без функции.
-echo date('d.m.Y H:i:s') . '<br/>';
-echo mktime(0, 0, 0, 2, 24, 2016) . '<br/>';
+$dat=array(0,0,0,2,24,2016);
+task6($dat);
+
+
 
 echo "Задание 7:" . '<br/>';
-//Без функции.
 $str='Карл у Клары украл Кораллы';
-echo str_replace('К', '', $str) . '<br/>';
-$str='Две бутылки лимонада';
-echo str_replace('Две', 'Три', $str) . '<br/>';
+$str1='Две бутылки лимонада';
+task7($str,$str1);
 
 echo "Задание 8:" . '<br/>';
 //Сказали не делать пока.
@@ -49,8 +48,5 @@ echo "Задание 9:" . '<br/>';
 task9('file.txt');
 
 echo "Задание 10:" . '<br/>';
-//Без функции.
 $text = "Hello again!";
-$fp = fopen("anothertest.txt", "w");
-fwrite($fp, $text);
-fclose($fp);
+task10($text);

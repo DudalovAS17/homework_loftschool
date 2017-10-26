@@ -139,6 +139,18 @@ function task5_1($str)
 }
 
 
+function task6($dat)
+{
+    echo date('d.m.Y H:i') . '<br/>';
+    echo mktime($dat[0], $dat[1], $dat[2], $dat[3],$dat[4], $dat[5]) . '<br/>';
+}
+
+
+function task7($str, $str1)
+{
+    echo str_replace('К', '', $str) . '<br/>';
+    echo str_replace('Две', 'Три', $str1) . '<br/>';
+}
 
 function task9($file_name)
 {
@@ -146,5 +158,12 @@ function task9($file_name)
     $text=file_get_contents($file_name);
     print $text . '<br/>';
     fclose($a);
+}
+
+
+function task10($text) {
+    $fp = fopen("anothertest.txt", "w");
+    fwrite($fp, $text);
+    fclose($fp);
 }
 
