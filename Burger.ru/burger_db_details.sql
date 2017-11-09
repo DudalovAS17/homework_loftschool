@@ -1,0 +1,4 @@
+INSERT INTO burger_db.details (client_id, street, home, part, appt, floor, comment, payment, callback, data) VALUES (20, 'Pyshkina', '5', 6, 6, 66, 'Отсутствует', 'Нужна сдача', 'Не Перезванивать', null);
+INSERT INTO burger_db.details (client_id, street, home, part, appt, floor, comment, payment, callback, data) VALUES (25, 'Gogolya', '8', 8, 8, 8, 'Отсутствует', 'Оплата по карте', 'Не Перезванивать', null);
+INSERT INTO burger_db.details (client_id, street, home, part, appt, floor, comment, payment, callback, data) VALUES (20, 'uuuuu', '9', 99, 9, 9, 'Отсутствует', 'Нужна сдача', 'Не Перезванивать', '08-11-2017 21:50:37');
+INSERT INTO burger_db.details (client_id, street, home, part, appt, floor, comment, payment, callback, data) VALUES (26, 'Tverb', '8', 8, 8, 8, 'Hello, pas', 'Оплата по карте', 'Не Перезванивать', '08-11-2017 21:55:52');
